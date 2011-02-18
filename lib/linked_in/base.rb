@@ -1,6 +1,6 @@
 module LinkedIn
   class Base
-
+    attr_reader :doc
     def self.from_xml(doc)
       new(Nokogiri::XML(doc))
     end
