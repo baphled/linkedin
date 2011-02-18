@@ -37,20 +37,21 @@ Gem::Specification.new do |s|
      "lib/linked_in/update.rb",
      "lib/linked_in/url_resource.rb",
      "lib/linkedin.rb",
-     "test/client_test.rb",
-     "test/fixtures/blank.xml",
-     "test/fixtures/connections.xml",
-     "test/fixtures/error.xml",
-     "test/fixtures/network_status_with_group.xml",
-     "test/fixtures/network_statuses.xml",
-     "test/fixtures/picture_updates.xml",
-     "test/fixtures/profile.xml",
-     "test/fixtures/profile_full.xml",
-     "test/fixtures/profile_with_positions.xml",
-     "test/fixtures/search.xml",
-     "test/fixtures/status.xml",
-     "test/oauth_test.rb",
-     "test/test_helper.rb"
+     "spec/cases/client_spec.rb",
+     "spec/fixtures/blank.xml",
+     "spec/fixtures/connections.xml",
+     "spec/fixtures/error.xml",
+     "spec/fixtures/mailbox_items.xml",
+     "spec/fixtures/network_status_with_group.xml",
+     "spec/fixtures/network_statuses.xml",
+     "spec/fixtures/picture_updates.xml",
+     "spec/fixtures/profile.xml",
+     "spec/fixtures/profile_full.xml",
+     "spec/fixtures/profile_with_positions.xml",
+     "spec/fixtures/search.xml",
+     "spec/fixtures/status.xml",
+     "spec/cases/oauth_spec.rb",
+     "spec/spec_helper.rb"
   ]
   s.homepage = %q{http://github.com/pengwynn/linkedin}
   s.rdoc_options = ["--charset=UTF-8"]
@@ -58,9 +59,9 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.5}
   s.summary = %q{Ruby wrapper for the LinkedIn API}
   s.test_files = [
-    "test/client_test.rb",
-     "test/oauth_test.rb",
-     "test/test_helper.rb",
+     "spec/cases/client_spec.rb",
+     "spec/cases/oauth_spec.rb",
+     "spec/spec_helper.rb",
      "examples/authenticate.rb",
      "examples/network.rb",
      "examples/profile.rb",
