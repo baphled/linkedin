@@ -8,7 +8,6 @@ module LinkedIn
       @doc = doc
     end
 
-protected
     def doc
       @doc
     end
